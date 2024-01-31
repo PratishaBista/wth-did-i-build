@@ -47,6 +47,25 @@ nav ul li a {
 /* #nav-list > li {
     
   } */
+
+
+  .sub-list {
+    display: none;
+    position: absolute;
+    top: 40px
+    
+  }
+  #events-dropdown:hover .sub-list {
+    display: block;
+
+}
+#events-dropdown .sub-list li {
+    margin: 5px 0; 
+    font-size: 16px;
+   
+   
+}
+
 #search-btn.material-icons{
     cursor: pointer;
 }
@@ -82,7 +101,6 @@ nav ul li a {
     align-items: left;
     margin-top: 100px;
     opacity: .8;
-    transition: all .4s ease-in-out;
     text-align: left;
 }
 
@@ -106,7 +124,6 @@ figcaption h3 {
     margin-left: auto;
     margin-top: 100px;
     font-weight: bold;
-    transition: all .4s ease-in-out;
     text-align: right;
 }
 .readArticle p {
@@ -170,8 +187,13 @@ figcaption h3 {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     nav ul {
         font-size: 16px;
     }
+
+    #nav-list {
+        display: none;
+    }
+
 }

@@ -18,16 +18,24 @@
         <h1>XYZ MUSEUM</h1>
         <nav>
             <ul id="nav-list">
-                <li><a href="/about">About</a></li>
-                <li><a href="/events">Events</a></li>
-                <li><a href="/library">Library</a></li>
-                <li><a href="/exhibition">Exhibition</a></li>
-                <li><a id="tickets-link" href="/getTickets">Get Tickets</a></li>
-                <li><a id="donate-link" href="/donate">Donate</a></li>
-                <li><a href="/membership">Membership</a></li>
-                <li><a href="/visit">Visit</a></li>
+                <li><a href="/about" target="_blank">About</a></li>
+                <li id="events-dropdown">
+                    <a href="/events" target="_blank">Events</a>
+                    <ul class="sub-list">
+                        <li><a href="/now/showing" target="_blank">Now showing</a></li>
+                        <li><a href="/events/upcoming" target="_blank">Upcoming Events</a></li>
+                        <li><a href="/events/past" target="_blank">Past Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="/library" target="_blank">Library</a></li>
+                <li><a href="/exhibition" target="_blank">Exhibition</a></li>
+                <li><a id="tickets-link" href="/getTickets" target="_blank">Get Tickets</a></li>
+                <li><a id="donate-link" href="/donate" target="_blank">Donate</a></li>
+                <li><a href="/membership" target="_blank">Membership</a></li>
+                <li><a href="/visit" target="_blank">Visit</a></li>
                 <li><i class="material-icons" id="search-btn">search</i></li>
             </ul>
+
         </nav>
     </header>
 
@@ -50,13 +58,13 @@
                 </div> -->
             </figure>
             <div class="readArticle">
-                <a href="article1.html">
+                <a href="article1.html" target="_blank">
                     <p>Lorem ipsum dolor sit amIncidunt, natus.
                         qui illo aue at aut aperiam obcaecat tempora conpisci vel masectetur numquam recusandae laborum
                         quisquam.</p>
                 </a>
-               
-                <a href="blog.html">
+
+                <a href="blog.html" target="_blank">
                     <p>Read More</p>
                 </a>
             </div>
@@ -67,10 +75,10 @@
         <div class="social-container">
             <a href="https://example.com" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            
+
         </div>
     </section>
-    
+
 </body>
 
 </html>
