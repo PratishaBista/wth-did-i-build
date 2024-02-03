@@ -8,76 +8,98 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>XYZ Museum</title>
+    <title>Museum || Art and Culture</title>
 </head>
 
 <body>
-    <header id="header">
-        <h1>XYZ MUSEUM</h1>
-        <nav>
-            <ul id="nav-list">
-                <li><a href="/about" target="_blank">About</a></li>
-                <li id="events-dropdown">
-                    <a href="/events" target="_blank">Events</a>
-                    <ul class="sub-list">
-                        <li><a href="/now/showing" target="_blank">Now showing</a></li>
-                        <li><a href="/events/upcoming" target="_blank">Upcoming Events</a></li>
-                        <li><a href="/events/past" target="_blank">Past Events</a></li>
-                    </ul>
-                </li>
-                <li><a href="/library" target="_blank">Library</a></li>
-                <li><a href="/exhibition" target="_blank">Exhibition</a></li>
-                <li><a id="tickets-link" href="/getTickets" target="_blank">Get Tickets</a></li>
-                <li><a id="donate-link" href="/donate" target="_blank">Donate</a></li>
-                <li><a href="/membership" target="_blank">Membership</a></li>
-                <li><a href="/visit" target="_blank">Visit</a></li>
-                <li><i class="material-icons" id="search-btn">search</i></li>
-            </ul>
-
-        </nav>
-    </header>
-
-    <main>
-        <section id="featured">
-            <figure>
-                <img src="main.jpg" alt="Featured Artwork">
-                <figcaption>
-                    <a href="nowShowing.html">
-                        <h3>Now Open</h3>
-                    </a>
-                    <!-- <h3>Read more</h3> -->
-
-                </figcaption>
-                <!-- <div class = "gallery">
-                    <img src="feature4.jpeg" alt = "ur adipisici">
-                    <img src ="feature3.jpg" alt = "el reprehenderit">
-                    <img src ="feature2.jpg" alt = "Odio eum qu">
-                    <img src ="feature1.jpg" alt = "facilis recusandae">
-                </div> -->
-            </figure>
-            <div class="readArticle">
-                <a href="article1.html" target="_blank">
-                    <p>Lorem ipsum dolor sit amIncidunt, natus.
-                        qui illo aue at aut aperiam obcaecat tempora conpisci vel masectetur numquam recusandae laborum
-                        quisquam.</p>
-                </a>
-
-                <a href="blog.html" target="_blank">
-                    <p>Read More</p>
-                </a>
+    <div class="logo">
+        <h1>Museum</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <div class="events-dropdown">
+                <li><a href="#">Events</a></li>
+                <div class="sub-list">
+                    <a href="#">Now Showing</a>
+                    <a href="#">Upcoming Events</a>
+                    <a href="#">Past Events</a>
+                </div>
             </div>
-        </section>
-    </main>
 
-    <section id="social-link">
-        <div class="social-container">
-            <a href="https://example.com" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Exhibition</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Visit</a></li>
+            <li><i class="material-icons">search</i></li>
+            <button><a href="#">Donate</a></button>
+            <button><a href="#">Get Tickets</a></button>
+        </ul>
+    </nav>
+    <div class="gallery">
+        <a href="Images/feature1.jpg" target="_blank">
+            <img src="Images/feature1.jpg" alt="lorem">
+        </a>
+        <!-- <div class="caption">
+            <p>New Native Galleries</p>
+        </div> -->
+    </div>
+    <div class="gallery">
+        <a href="Images/main.jpg" target="_blank">
+            <img src="Images/main.jpg" alt="lorem">
+        </a>
+        <!-- <div class="caption">
+            <p>Telling Amazing Stories</p>
+        </div> -->
+    </div>
+    <div class="gallery">
+        <a href="Images/feature3.jpg" target="_blank">
+            <img src="Images/feature3.jpg" alt="lorem">
+        </a>
+        <!-- <div class="caption">
+            <p>Changing Views</p>
+        </div> -->
+    </div>
+    <div class="gallery">
+        <a href="Images/feature.jpg" target="_blank">
+            <img src="Images/feature.jpg" alt="lorem">
+        </a>
+        <!-- <div class="caption">
+            <p>Native Art History is Made Here</p>
+        </div> -->
+    </div>
 
-        </div>
-    </section>
+    <div class="intro">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+            Consectetur, nulla. Dolores dolore excepturi ducimus officia <br>
+            rem autmagnam, repudiandae quo illum nisi sapiente<br>
+            maxime et corrupti ea doloribus corporis aperiam!</p>
+        <!-- <h3><a href="#">Read More</a> </h3>  -->
+    </div>
+
+    <div class="info">
+        <ul>
+            <li>Now Open</li>
+            <li>New Native Galleries</li>
+            <li id="learn-more">Learn more
+                <!-- <i class='bx bx-plus-circle'></i> -->
+            </li>
+        </ul>
+    </div>
+
+    <div class="socials">
+        <ul>
+            <li><a href="#"><i class='bx bx-paperclip'></i></a></li>
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+            <li><a href="#"><i class='bx bx-share-alt'></i></a></li>
+        </ul>
+    </div>
+
 
 </body>
 
