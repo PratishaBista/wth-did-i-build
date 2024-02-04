@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
 }
 
 .logo h1 {
@@ -157,7 +156,7 @@ nav button:hover {
 
 .info {
     display: inline-block;
-    margin-top: 260px;
+    margin-top: 280px;
     margin-left: 70px;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -166,7 +165,7 @@ nav button:hover {
 
 #learn-more {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -175,6 +174,7 @@ nav button:hover {
 #learn-more:hover {
     text-decoration: underline;
 }
+
 
 .intro {
     position: absolute;
@@ -194,6 +194,7 @@ nav button:hover {
     font-size: 16px;
     font-family: "Calibri", 'Trebuchet MS', sans-serif
 }
+
 #read-more {
     text-decoration: none;
     transform: translate(-50%, -50%);
@@ -245,5 +246,3 @@ section.socials ul li a {
 section.socials ul li a:hover {
     transform: translate(0, -10px);
 }
-
-
